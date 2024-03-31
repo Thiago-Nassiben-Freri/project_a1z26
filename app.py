@@ -13,7 +13,7 @@ def cryptographerUX():
                 functions.exit()
                 break
         except ValueError: 
-            print("\033[91m Erro: Valor inválido! \033[0m")
+            print("\033[91m Erro: Valor registrado inválido! \033[0m")
 
 if __name__ == '__main__': 
     cryptographerUX()
